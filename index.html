@@ -804,31 +804,12 @@
             <a href="#" class="social-link" title="Discord">◆</a>
         </div>
         <p class="footer-text">© 2026 Komla. Made with memes & existential dread.</p>
+        <p class="footer-text">Created by <a href="https://jicoing.site" target="_blank" style="color: var(--primary);">jicoing</a></p>
     </footer>
 
     <div class="mascot" title="Click for a surprise!">🧠</div>
 
     <script>
-        document.querySelector('.btn-support').addEventListener('click', function(e) {
-            e.stopPropagation();
-            document.querySelector('.support-dropdown').classList.toggle('active');
-        });
-
-        document.addEventListener('click', () => {
-            document.querySelector('.support-dropdown').classList.remove('active');
-        });
-
-        document.querySelector('.mascot').addEventListener('click', () => {
-            const messages = [
-                "You found the easter egg! 🎉",
-                "The simulation is real! 👁️",
-                "Have you questioned your reality today? 🌀",
-                "KOMLA WANTS YOU! 📣",
-                "Game theory says you're awesome 🎮"
-            ];
-            alert(messages[Math.floor(Math.random() * messages.length)]);
-        });
-
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
