@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@cashfreepayments/agent-toolkit": "^1.0.6",
+    "node-cashfree": "^1.0.2"
+  }
+}
